@@ -1,0 +1,15 @@
+/* ALTERNATE BOX MODEL */
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+}
