@@ -1,9 +1,48 @@
+/* THEO'S RULES */
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  vertical-align: baseline;
+
+  font: inherit;
+}
+
+html {
+  /* set base font size to 10px */
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+label {
+  border: 0;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html,
+/* html,
 body,
 div,
 span,
@@ -28,7 +67,7 @@ cite,
 code,
 del,
 dfn,
-/* em, */
+em,
 img,
 ins,
 kbd,
@@ -37,7 +76,7 @@ s,
 samp,
 small,
 strike,
-/* strong, */
+strong,
 sub,
 sup,
 tt,
@@ -87,10 +126,10 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 
 /* HTML5 DISPLAY-ROLE RESET FOR OLDER BROWSERS */
 
@@ -133,27 +172,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-/* THEO'S RULES */
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button,
-input,
-textarea {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 1rem;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-input,
-textarea {
-  outline: none;
 }
